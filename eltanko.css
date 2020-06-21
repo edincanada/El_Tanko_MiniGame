@@ -1,0 +1,63 @@
+body
+{
+  position : absolute ;
+  top : 0px ;
+  left : 0px ;
+  width : 100% ;
+  height : 100% ;
+}
+
+#sltCodeDisplay
+{
+  position : absolute ;
+  top : 30px ;
+  left : 30px ;
+}
+  
+.cssDivElTanko
+{
+  position : relative ;
+
+  width : 800px ;
+  margin-left : auto ;
+  margin-right : auto ;
+}
+
+.cssCnvElTanko
+{
+  position : relative ;
+  top : 0px ;
+  left : 0px ;
+  width : 800px ;
+  height : 600px ;
+}
+
+.cssPlayerHealth
+{
+  color : black ;
+}
+
+.cssEnemyHealth
+{
+
+  color : black ;
+}
+
+.cssPlayerHealthBar
+{
+  width : 400px ;
+  height : 10px ;
+  background-color : green ;
+}
+
+.cssPlayerEnemyBar
+{
+  width : 400px ;
+  height : 10px ;
+  background-color : red ;
+}
+
+.cssDivKills
+{
+  float : right ;
+}

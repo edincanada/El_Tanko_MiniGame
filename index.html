@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<!--
+ El Tanko!
+ Version 0.0.0, date/last/modified
+ Ed Arvelaez
+
+-->
+
+<meta name="author" content="Ed Arvelaez" />
+<!-- <meta http-equiv="content-type" content="text/html;charset=utf-8" /> -->
+<meta charset="utf-8" />
+<link type="text/css" rel="stylesheet" media="screen" href="/common/css/reset.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="eltanko.css" />
+<script type="text/javascript" src="/common/processing/processing-1.4.1.min.js"></script>
+<script type="text/javascript" src="/common/js/extratabselect.js"></script>
+<script type="text/javascript" src="ComputerInput.class.js"></script>
+<script type="text/javascript" src="UserInput.class.js"></script>
+<script type="text/javascript" src="Shell.class.js"></script>
+<script type="text/javascript" src="Turret.class.js"></script>
+<script type="text/javascript" src="Wall.class.js"></script>
+<script type="text/javascript" src="Tank.class.js"></script>
+<script type="text/javascript" src="eltanko.js"></script
+<title>El Tanko!</title>
+</head>
+<body id="bodyElTanko" class="cssBodyElTanko">
+  <select id="sltCodeDisplay">
+    <option>See the code...</option>
+    <option value="http://edincanada.tech/apps/codedisplay/codedisplay.php?project=eltanko&amp;file=ComputerInput_class_js.txt">ComputerInput class</option>
+    <option value="http://edincanada.tech/apps/codedisplay/codedisplay.php?project=eltanko&amp;file=Shell_class_js.txt">Shell class</option>
+    <option value="http://edincanada.tech/apps/codedisplay/codedisplay.php?project=eltanko&amp;file=Tank_class_js.txt">Tank class</option>
+    <option value="http://edincanada.tech/apps/codedisplay/codedisplay.php?project=eltanko&amp;file=Turret_class_js.txt">Turret class</option>
+    <option value="http://edincanada.tech/apps/codedisplay/codedisplay.php?project=eltanko&amp;file=UserInput_class_js.txt">UserInput class</option>
+    <option value="http://edincanada.tech/apps/codedisplay/codedisplay.php?project=eltanko&amp;file=Wall_class_js.txt">Wall class</option>
+    <option value="http://edincanada.tech/apps/codedisplay/codedisplay.php?project=eltanko&amp;file=eltanko_js.txt">Main script</option>
+</select>
+<div class="cssDivElTanko">
+  <div class="cssPlayerHealth">
+    Player | Kills : <span id="spanKills">0</span> | Deaths : <span id="spanDeaths">0</span><div id="divPlayerHealthBar" class="cssPlayerHealthBar">&nbsp;</div>
+  </div>
+  <div class="cssEnemyHealth">
+    Enemy<div id="divPlayerEnemyBar" class="cssPlayerEnemyBar">&nbsp;</div>
+  </div>
+  <canvas id="cnvElTanko" width="800>&nbsp;" height="600" style="">
+  Canvas not supported
+  </canvas>
+</div>
+</body>
+</html>
